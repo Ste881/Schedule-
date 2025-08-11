@@ -18,4 +18,28 @@ tasks = [
 ]
 
 df = pd.DataFrame(tasks)
-print(df)
+
+def show_schedule():
+    print("\n=== Your Schedule ===")
+    print(df)
+
+def mark_task_done():
+    show_schedule()
+    try:
+        task_num = int(input("\nEnter task number to mark as done (0-based index): "))
+        if 0 <= task_num < len(df):
+            df.at[task_num, "Status"] = "Done ✅"
+            print(f"Task '{df.at[task_num, 'Task']}' marked as done!")
+        else:
+            print("Invalid task number.")
+    except ValueError:
+        print("Please enter a valid number.")
+
+def view_completed_tasks():
+    completed = df[df["Status"] == "Done ✅"]
+    if not completed.empty:
+        print("\n=== Completed Tasks ===")
+        print(completed)
+    else:
+        print("\nNo tasks completed yet.")
+

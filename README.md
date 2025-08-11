@@ -3,4 +3,4 @@
 
 ### Creating Schedule Skeleton
 
-![2025-08-1123-48-18-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/70406982-49c9-4b46-bf40-9f07227f5f0a)
+![2025-08-1123-50-46-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/bbd155c0-0afa-41c9-8d34-cd7cbe9b81b0)

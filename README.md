@@ -3,4 +3,4 @@
 
 ### Creating Schedule Skeleton
 
-![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/72c87192-dfcf-4ec4-94d7-975f3c397c04)
+![0811](https://github.com/user-attachments/assets/754861ea-22ff-434e-9d86-f3cc98672617)
